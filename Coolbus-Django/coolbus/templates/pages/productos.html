@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="coolbus\static\css\myStyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+  <body style="background-color:#f9f8f8;">
+  </body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+
+
+    <div class="container-xxl">
+w
+      <a class="navbar-brand" href="index.html"><img class="logoimg" width="136" height="86" src="img\COOLBUS.1.jpg"
+          alt="Imagen no encontrada"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ayuda
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="contactanos.html">Contactanos</a></li>
+              <li><a class="dropdown-item" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+            </ul>
+          </li>
+        </ul>
+        <button type="button" onclick="window.location.href='login.html'">
+          Ingresar
+        </button>
+
+        <button type="button" onclick="window.location.href='signup.html'">Registrarse</button>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- FIN DEL NAV -->
+
+ <!-- Productos-->
+            <div class="row">
+              <div class="col" id="colcard">
+        
+
+                <div class="card" style="width: 18rem;">
+                  <a href=""> <img src="{% static 'coolbus\static\imgP\Purificador.png' %}" class="card-img-top" alt="Imagen no encontrada"> </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Purificador de Aire</h5>
+                    <p class="card-text">El Dispositivo Purificador de Aire, “sextuplica” los niveles de filtrado y desinfección en la eliminación, no solo de gérmenes y patógenos; sino que material particulado, 
+                      olores, y en general todo tipo de contaminantes.</p>
+                    <a href="#" class="btn btn-primary">Más informacion</a>
+                    <a href="#" class="btn btn-primary">
+        
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+        
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+        
+              </div>
+        
+        
+              <div class="col" id="colcard">
+        
+                <div class="card" style="width: 18rem;">
+                  <a href=""><img src="imgP\Motor_condensador.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Motor ventilador evaporador a/c 24 voltios</h5>
+                    <p class="card-text">Motor ventilador evaporador a/c 24 voltios marca spheros</p>
+                    <a href="#" class="btn btn-primary">Más informacion</a>
+                    <a href="#" class="btn btn-primary">
+        
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+        
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+        
+              </div>
+        
+        
+              <div class="col" id="colcard">
+        
+                <div class="card" style="width: 18rem;">
+                  <a href=""><img src="imgP\Motor_defroster.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Motor defroster 24 voltios 2 turbinas</h5>
+                    <p class="card-text">motor imobras - 24 voltios - 2 turbinas con carcaza plastica - senior g6 - volare fly - wl - ideale</p>
+                    <a href="#" class="btn btn-primary">Más informacion</a>
+                    <a href="#" class="btn btn-primary">
+        
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+        
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+        
+              </div>
+            </div>        
+          </div>
+
+          <div class="row">
+            <div class="col" id="colcard">
+      
+              <div class="card" style="width: 18rem;">
+                <a href=""> <img src="imgP\Polea_correa_alternador.jpg" class="card-img-top" alt="Imagen no encontrada"> </a>
+                <div class="card-body">
+                  <h5 class="card-title">Polea correa alternador acanalada volare</h5>
+                  <p class="card-text">polea alternador con ranuras uso en modeloss volare a6/a8/w8 con motor mwm 4.10tca marca Suntech</p>
+                  <a href="#" class="btn btn-primary">Más informacion</a>
+                  <a href="#" class="btn btn-primary">
+      
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                      <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+      
+                    </svg>
+                  </a>
+                </div>
+              </div>
+      
+            </div>
+      
+      
+            <div class="col" id="colcard">
+      
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="imgP\Empaquetadura_carter.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Empaquetadura carter</h5>
+                  <p class="card-text">modelos volare a8 - w8 - w9 - mwm 4.10tca - 4.12tcae - maxxforce 4.8</p>
+                  <a href="#" class="btn btn-primary">Más informacion</a>
+                  <a href="#" class="btn btn-primary">
+      
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                      <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+      
+                    </svg>
+                  </a>
+                </div>
+              </div>
+      
+            </div>
+      
+      
+            <div class="col" id="colcard">
+      
+              <div class="card" style="width: 18rem;">
+                <a href=""><img src="imgP\Empaquetadura_superior_motor.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Kit empaquetadura superior motor</h5>
+                  <p class="card-text">modelos volare a8 - w8 - mwm 4.10tca - 6.10tca - incluye empaquetadura culata - admision - 
+                    escape - tapa valvulas - retenes de valvulas</p>
+                  <a href="#" class="btn btn-primary">Más informacion</a>
+                  <a href="#" class="btn btn-primary">
+      
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                      <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+      
+                    </svg>
+                  </a>
+                </div>
+              </div>
+      
+            </div>
+          </div>        
+        </div>
+
+        <div class="row">
+          <div class="col" id="colcard">
+    
+            <div class="card" style="width: 18rem;">
+              <a href=""> <img src="imgP\Gas_refrigerante.jpg" class="card-img-top" alt="Imagen no encontrada"> </a>
+              <div class="card-body">
+                <h5 class="card-title">Gas refrigerante r134a</h5>
+                <p class="card-text">contenido 13.6 kilogramos</p>
+                <a href="#" class="btn btn-primary">Más informacion</a>
+                <a href="#" class="btn btn-primary">
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+    
+                  </svg>
+                </a>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col" id="colcard">
+    
+            <div class="card" style="width: 18rem;">
+              <a href=""><img src="imgP\Paños.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+              <div class="card-body">
+                <h5 class="card-title">Paño de limpieza bi-color 1 kilogramos</h5>
+                <p class="card-text">paño limpieza color varios empaque 1 kilogramos uso para mantencion y limpieza</p>
+                <a href="#" class="btn btn-primary">Más informacion</a>
+                <a href="#" class="btn btn-primary">
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+    
+                  </svg>
+                </a>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col" id="colcard">
+    
+            <div class="card" style="width: 18rem;">
+              <a href=""><img src="imgP\Presostato_alta_presion.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+              <div class="card-body">
+                <h5 class="card-title">Presostato alta presion a/c</h5>
+                <p class="card-text">todos los compresores spheros - pmax418bpsh - 6a - 240vac</p>
+                <a href="#" class="btn btn-primary">Más informacion</a>
+                <a href="#" class="btn btn-primary">
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+    
+                  </svg>
+                </a>
+              </div>
+            </div>
+    
+          </div>
+        </div>        
+      </div>
+
+      <div class="row">
+        <div class="col" id="colcard">
+  
+          <div class="card" style="width: 18rem;">
+            <a href=""> <img src="imgP\Motor_condensador_axial.jpg" class="card-img-top" alt="Imagen no encontrada"> </a>
+            <div class="card-body">
+              <h5 class="card-title">Motor ventilador axial condensador 24 voltios</h5>
+              <p class="card-text">cc305 - centimetros cubicos335 - centimetros cubicos350 - 24 voltios - spheros</p>
+              <a href="#" class="btn btn-primary">Más informacion</a>
+              <a href="#" class="btn btn-primary">
+  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                  <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+  
+                </svg>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+  
+        <div class="col" id="colcard">
+  
+          <div class="card" style="width: 18rem;">
+            <a href=""><img src="imgP\Compresor_NOpolea.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+            <div class="card-body">
+              <h5 class="card-title">Compresor a/c bock fk-40/655 - sin polea</h5>
+              <p class="card-text">a/c centimetros cubicos300 - centimetros cubicos350 - ideale 770 - paradiso 1800 dd - rodoviarios 655 
+                centimetros cubicos - reemplaza a marsal0898</p>
+              <a href="#" class="btn btn-primary">Más informacion</a>
+              <a href="#" class="btn btn-primary">
+  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                  <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+  
+                </svg>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+  
+        <div class="col" id="colcard">
+  
+          <div class="card" style="width: 18rem;">
+            <a href=""><img src="imgP\Compresor_24volts.jpg" class="card-img-top" alt="Imagen no encontrada"></a>
+            <div class="card-body">
+              <h5 class="card-title">Compresor a/c 24 voltios - tm21-8pk</h5>
+              <p class="card-text">ex 01400132001</p>
+              <a href="#" class="btn btn-primary">Más informacion</a>
+              <a href="#" class="btn btn-primary">
+  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                  <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+  
+                </svg>
+              </a>
+            </div>
+          </div>
+  
+        </div>
+      </div>        
+    </div>      
+
+
+          <footer class="text-center text-lg-start bg-dark text-muted" id="footer">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <!-- Left -->       
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <i class="fas fa-gem me-3"></i>Nosotros
+                    </h6>
+                    <p>
+                        COOLBUS es una empresa comprometida y confiable. Nace de la necesidad
+                        de dar solución a diversos requerimientos del mercado. Somos pioneros en
+                        instalación de unidades de Aire Acondicionado para el transporte de
+                        pasajeros en diferentes carrocerías nacionales e internacional, ya sea buses
+                        nuevos o usados de diferentes dimensiones, con técnicos calificados y de
+                        vasta experiencia con 13 años en el Rubro de Aire Acondicionado para el
+                        transporte Terrestre de pasajeros.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Productos
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Producto 1</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Producto 2</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Producto 3</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Producto 4</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Link de Intereses
+                    </h6>
+                    <p>
+                      <a href="preguntas-frecuentes.html" class="text-reset">Preguntas Frecuentes</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Productos</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Servicios</a>
+                    </p>
+                    <p>
+                      <a href="contactanos.html" class="text-reset">Ayuda</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                    <p><i class="fas fa-home me-3"></i> Curacaví 255, Santiago, Estación Central</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      luis.coolbus@gmail.com
+                    </p>
+        
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div id="copyrightid " class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+              <p class="textcopyright">© 2023 Copyright Todos los Derechos Reservados,</p>
+              <a class="acopyright" href="https://www.lithost.cl" target="_blank">CoolBus</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        
+        
+        
+        
+        
+        
+        
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        </body>
+        
+        
+        
+        
+        </html>          
